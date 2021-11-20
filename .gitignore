@@ -1,0 +1,138 @@
+# Archivos compilados / optimizados / DLL compilados por byte
+__pycache__/
+*.py[bacalao]
+*$py.class
+
+# Extensiones C
+*.so
+
+# Distribución / embalaje
+. Pitón
+construir/
+desarrollar-huevos/
+dist/
+descargas/
+huevos/
+.huevos/
+lib/
+lib64/
+partes/
+sdista/
+var/
+ruedas/
+compartir/python-wheels/
+*.egg-info/
+.instalado.cfg
+*.huevo
+MANIFIESTO
+
+# PyInstaller
+# Por lo general, estos archivos están escritos por un script de Python desde una plantilla.
+# antes de que PyInstaller construya el exe, para inyectar información de fecha / otra información en él.
+*.manifest
+*.spec
+
+# Registros del instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pruebas unitarias / informes de cobertura
+htmlcov/
+.tox/
+.nox/
+.cobertura
+.cobertura.*
+.cache
+pruebas de nariz.xml
+cobertura.xml
+*.cover
+*.py, cubierta
+.hipótesis/
+.pytest_cache/
+cubrir/
+
+# Traducciones
+*.mo
+*.pot
+
+# Cosas de Django:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Cosas del matraz:
+instancia/
+.webassets-cache
+
+# Cosas rasposas:
+.scrapy
+
+# Documentación de la Esfinge
+documentos/_build/
+
+# PyBuilder
+.pybuilder/
+blanco/
+
+# Cuaderno Jupyter
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Para una biblioteca o paquete, es posible que desee omitir estos archivos ya que el código es
+# destinado a ejecutarse en múltiples entornos; de lo contrario, regístrelos:
+# .python-version
+
+# pipenv
+# De acuerdo con pypa/pipenv#598, se recomienda incluir Pipfile.lock en el control de versiones.
+# Sin embargo, en caso de colaboración, si tiene dependencias o dependencias específicas de la plataforma
+# al no tener soporte multiplataforma, pipenv puede instalar dependencias que no funcionan o no
+# instalar todas las dependencias necesarias.
+# Pipfile.lock
+
+# PEP 582; utilizado por, por ejemplo, github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Apio
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath analiza los archivos
+*.sage.py
+
+# Entornos
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuración del proyecto Spyder
+.spyderproject
+.spyproject
+
+# Configuración del proyecto de cuerda
+.ropeproject
+
+# documentación de mkdocs
+/sitio
+
+# mipy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Comprobador de tipo pira
+.pyre/
+
+# analizador de tipos estáticos pytype
+.pytype/
+
+# Símbolos de depuración de Cython
+cython_debug/
